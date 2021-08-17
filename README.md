@@ -97,7 +97,7 @@ reference - https://cloudcult.dev/cilium-installation-openshift-assisted-install
      curl \
      --header "Content-Type: application/json" \
      --request PATCH \
-     --data '"{\"networking\":{\"networkType\":\"Cilium\"}}"' \
+     --data '"{\"networking\":{\"networkType\":\"OpenshiftSDN\"}}"' \
      -H "Authorization: Bearer $TOKEN" \
      "https://$ASSISTED_SERVICE_API/api/assisted-install/v1/clusters/$CLUSTER_ID/install-config"
      ```
